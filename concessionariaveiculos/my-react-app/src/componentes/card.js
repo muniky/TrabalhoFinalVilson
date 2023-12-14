@@ -26,7 +26,7 @@ export default function Card(props) {
                     <span className="text-danger">{props.veiculos.placa}</span>
                 </div>
                 <div className="mt-3 d-flex justify-content-between">
-                    <Link to={`/contato/editar/${props.veiculos.id}`}><button className="btn btn-outline-primary">Editar</button></Link>
+                    <Link to={`/veiculos/editar/${props.veiculos.id}`}><button className="btn btn-outline-primary">Editar</button></Link>
                     <button 
                       onClick={excluir}
                     className="btn btn-outline-danger" >Excluir</button>

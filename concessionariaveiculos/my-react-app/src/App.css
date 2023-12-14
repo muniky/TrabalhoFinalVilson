@@ -25,8 +25,18 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
+.navlink{
+  color: black;
+}
+.botao{
+  border: 3px solid hotpink;
+}
+* {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 @keyframes App-logo-spin {
   from {

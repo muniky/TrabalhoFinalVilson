@@ -13,7 +13,7 @@ export default function Consulta() {
     useEffect(consultar, [])
     return (
         <div>
-            <h2>Consulta de Veiculos</h2>
+            <h1>Consulta de Veiculos</h1>
             <div className="d-flex flex-wrap">
                 {
                     veiculos.map(vc => <Card veiculos={vc} />)

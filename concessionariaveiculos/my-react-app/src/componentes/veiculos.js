@@ -18,7 +18,7 @@ export default function Cadastro(){
 
     return(
         <div className="container">
-            <h2 className="text-center">Novo veiculo</h2>
+            <h1 className="text-center">Novo veiculo</h1>
             <label className="form-label">Informe modelo</label>
             <input 
               className="form-control" 

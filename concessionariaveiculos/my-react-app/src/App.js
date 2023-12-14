@@ -6,9 +6,8 @@ function App() {
     <div className="App">
       <h1>Concessionária</h1>
       <nav>
-        <Link to='/veiculos/cadastrar'>Cadastro</Link> &nbsp;
-        <Link to='/veiculos/consultar'>Consulta</Link> &nbsp;
-        <Link to='/veiculos/editar/10'>Editar</Link>
+        <button className="botao"><Link className='navlink' to='/veiculos/cadastrar'>Cadastro</Link></button> &nbsp;
+        <button className="botao"><Link className='navlink' to='/veiculos/consultar'>Consulta</Link></button> &nbsp;
       </nav>
       <main>
          <Outlet />
